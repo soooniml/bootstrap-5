@@ -1,0 +1,41 @@
+.click:hover{
+    background-color: blue;
+}
+.list-group-item:hover{
+    background-color: grey;
+}
+.go:hover{
+    background-color: blue;
+}
+.btn-outline-primary:hover{
+    background-color: blue;
+}
+.btn-outline-secondary:hover{
+    background-color: grey;
+}
+.btn-outline-success:hover{
+    background-color: green;
+}
+.btn-outline-danger:hover{
+    background-color: red;
+}
+.rounded:hover{
+    transform: scale(1.2);
+    transition: 1s;
+}
+.accordion-button:hover{
+    text-decoration: underline;
+}
+.accordion-body ul li:hover{
+    text-decoration: underline;
+}
+footer ul li:hover{
+    text-decoration: underline;
+}
+
+
+@media screen and (max-width:456px){
+    .carousel-caption{
+        font-size: 10px;
+    }
+}
